@@ -1,0 +1,312 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Opinions",
+    "dateExported": "2024-03-01T03:57:13.291Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-01T02:51:47.050Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "name": "Publication",
+            "containerId": "",
+            "created": "2024-03-01T03:05:50.599Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "name": "Comment",
+            "containerId": "",
+            "created": "2024-03-01T03:29:44.410Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d2bdaed8-5c38-4c34-aafa-3f57e7ecf8f8",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "name": "Register",
+            "url": "localhost:2656/user/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T02:51:47.052Z",
+            "modified": "2024-03-01T03:23:01.919Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Edwin"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "González"
+                    },
+                    {
+                        "name": "username",
+                        "value": "egonzalez2"
+                    },
+                    {
+                        "name": "password",
+                        "value": "ee2019"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "40479108"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ssss@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "634dfff1-26ce-41dd-9120-2477195b1686",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "name": "Save",
+            "url": "localhost:2656/publication/createPublication",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T03:06:24.602Z",
+            "modified": "2024-03-01T03:25:49.617Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjI2NjAsImV4cCI6MTcwOTI3MzQ2MH0.p5Jzd-ZJxS82vNfA4p4HwY7xq2Cpi9L39Eq4HKsumRc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "Un juego nueveee"
+                    },
+                    {
+                        "name": "category",
+                        "value": "FUN"
+                    },
+                    {
+                        "name": "content",
+                        "value": "Un juego muy pero muy divertido"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cafe2280-fb8a-42d2-bb68-a84ed076584d",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "name": "Save",
+            "url": "localhost:2656/comment/createComment",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T03:29:44.410Z",
+            "modified": "2024-03-01T03:54:27.524Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjI2NjAsImV4cCI6MTcwOTI3MzQ2MH0.p5Jzd-ZJxS82vNfA4p4HwY7xq2Cpi9L39Eq4HKsumRc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "text",
+                        "value": "Que locura3"
+                    },
+                    {
+                        "name": "publication",
+                        "value": "65e14ab2e6a8f5a79fc0c7fd"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0f0a1649-8e4a-4978-8b84-c94fce37b9ad",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "name": "Login",
+            "url": "localhost:2656/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T02:51:47.052Z",
+            "modified": "2024-03-01T03:25:01.924Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "egonzalez1"
+                    },
+                    {
+                        "name": "password",
+                        "value": "ee2019"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e02d008b-1adc-451e-8ef5-fd39c3e4061e",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "name": "Edit",
+            "url": "localhost:2656/publication/editPublication/65e147ee5c1e2d1437b0fbd7",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-01T03:18:01.803Z",
+            "modified": "2024-03-01T03:23:23.078Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNGExNTE1MDlmNTNiNzhkOTM0OTgiLCJ1c2VybmFtZSI6ImVnb256YWxlejIiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjMzOTEsImV4cCI6MTcwOTI3NDE5MX0.sIBtek_HbALCwc_qq7T7aShLH8NaY_Z5GIwijh3oUcE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "JIjiji"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ed6f49b-437e-4dbb-8d35-969158181ca0",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "name": "Edit",
+            "url": "localhost:2656/comment/editComment/65e15173b70527f2610244b1",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-01T03:29:44.411Z",
+            "modified": "2024-03-01T03:56:07.871Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjUzNjAsImV4cCI6MTcwOTI3NjE2MH0.uOjI3oJ4oHjukpZ8HchlN4RSaxxHuIZQWw2j6jXajmU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "text",
+                        "value": "Mentira"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4e57729d-1c29-492d-bb01-14a65a1c54d2",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "name": "Update",
+            "url": "localhost:2656/user/updateUser/65dd2d4fad50b5b81cb1805c",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-01T02:51:47.052Z",
+            "modified": "2024-03-01T02:51:47.052Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRkMmQ0ZmFkNTBiNWI4MWNiMTgwNWMiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDg5OTUyMjAsImV4cCI6MTcwOTAwNjAyMH0.aolzPk7bgNOUFYdyKvT5Rnxlp7A5gtwCKYNLJRpiC20"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "nenehorni"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4df7db5b-1394-48b4-a632-2d3a4e2f67a1",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "name": "Delete",
+            "url": "localhost:2656/publication/deletePublication/65e147ee5c1e2d1437b0fbd7",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-01T03:24:04.529Z",
+            "modified": "2024-03-01T03:25:09.790Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjM1MDEsImV4cCI6MTcwOTI3NDMwMX0.wmC_ePJ0TUYvS0tN_0r2etphdVq0XxHQdBfN8aKyyok"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ef336021-bff7-46f4-b410-2a6c00754e0b",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "name": "Delete",
+            "url": "localhost:2656/comment/deleteComment/65e15173b70527f2610244b1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-01T03:29:44.412Z",
+            "modified": "2024-03-01T03:56:48.177Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjM1MDEsImV4cCI6MTcwOTI3NDMwMX0.wmC_ePJ0TUYvS0tN_0r2etphdVq0XxHQdBfN8aKyyok"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bd51995f-8315-4d51-af08-fec5bb4494c6",
+            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
+            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "name": "getAllPublications",
+            "url": "localhost:2656/publication/getAllPublications",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-01T03:26:14.275Z",
+            "modified": "2024-03-01T03:50:23.845Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
