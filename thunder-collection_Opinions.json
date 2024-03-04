@@ -1,42 +1,42 @@
 {
     "client": "Thunder Client",
     "collectionName": "Opinions",
-    "dateExported": "2024-03-01T03:57:13.291Z",
+    "dateExported": "2024-03-04T13:49:36.293Z",
     "version": "1.1",
     "folders": [
         {
-            "_id": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "_id": "0597136a-51ce-491c-945c-532b5d53529a",
             "name": "User",
             "containerId": "",
-            "created": "2024-03-01T02:51:47.050Z",
+            "created": "2024-03-01T14:06:27.878Z",
             "sortNum": 10000
         },
         {
-            "_id": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "_id": "3bd344b2-27e1-4617-839c-955f8009bf2b",
             "name": "Publication",
             "containerId": "",
-            "created": "2024-03-01T03:05:50.599Z",
+            "created": "2024-03-01T14:06:27.879Z",
             "sortNum": 20000
         },
         {
-            "_id": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "_id": "6b6824ba-07c8-4f84-8db1-3ce5f866e126",
             "name": "Comment",
             "containerId": "",
-            "created": "2024-03-01T03:29:44.410Z",
+            "created": "2024-03-01T14:06:27.880Z",
             "sortNum": 30000
         }
     ],
     "requests": [
         {
-            "_id": "d2bdaed8-5c38-4c34-aafa-3f57e7ecf8f8",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "_id": "44859269-da31-4b6c-b709-d2d66197bd36",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "0597136a-51ce-491c-945c-532b5d53529a",
             "name": "Register",
             "url": "localhost:2656/user/register",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-01T02:51:47.052Z",
-            "modified": "2024-03-01T03:23:01.919Z",
+            "created": "2024-03-01T14:06:27.878Z",
+            "modified": "2024-03-01T14:06:27.878Z",
             "headers": [],
             "params": [],
             "body": {
@@ -72,19 +72,19 @@
             "tests": []
         },
         {
-            "_id": "634dfff1-26ce-41dd-9120-2477195b1686",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "_id": "5039d3a4-e6ce-437e-a05d-96790713630e",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "3bd344b2-27e1-4617-839c-955f8009bf2b",
             "name": "Save",
             "url": "localhost:2656/publication/createPublication",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-01T03:06:24.602Z",
-            "modified": "2024-03-01T03:25:49.617Z",
+            "created": "2024-03-01T14:06:27.881Z",
+            "modified": "2024-03-01T17:08:12.822Z",
             "headers": [
                 {
                     "name": "authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjI2NjAsImV4cCI6MTcwOTI3MzQ2MH0.p5Jzd-ZJxS82vNfA4p4HwY7xq2Cpi9L39Eq4HKsumRc"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTE3ODUzZjcxN2E5MWQ3NjQzMTEiLCJ1c2VybmFtZSI6ImVnb256YWxlejIiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkzMDUzODUsImV4cCI6MTcwOTMxNjE4NX0.WjI23OHkpozIUaUUSBZQAcLMtr4AiCCGg9jSVFqn-jA"
                 }
             ],
             "params": [],
@@ -94,7 +94,7 @@
                 "form": [
                     {
                         "name": "title",
-                        "value": "Un juego nueveee"
+                        "value": "Un juego nuevo"
                     },
                     {
                         "name": "category",
@@ -109,19 +109,19 @@
             "tests": []
         },
         {
-            "_id": "cafe2280-fb8a-42d2-bb68-a84ed076584d",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "_id": "b528a778-6d38-4ed8-92c2-d2110a52c40a",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "6b6824ba-07c8-4f84-8db1-3ce5f866e126",
             "name": "Save",
-            "url": "localhost:2656/comment/createComment",
+            "url": "localhost:2656/comment/createComment/65e1ef7e46ccfae2f50c62f8",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-01T03:29:44.410Z",
-            "modified": "2024-03-01T03:54:27.524Z",
+            "created": "2024-03-01T14:06:27.885Z",
+            "modified": "2024-03-01T17:08:04.684Z",
             "headers": [
                 {
                     "name": "authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjI2NjAsImV4cCI6MTcwOTI3MzQ2MH0.p5Jzd-ZJxS82vNfA4p4HwY7xq2Cpi9L39Eq4HKsumRc"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTE3ODUzZjcxN2E5MWQ3NjQzMTEiLCJ1c2VybmFtZSI6ImVnb256YWxlejIiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkzMDUzODUsImV4cCI6MTcwOTMxNjE4NX0.WjI23OHkpozIUaUUSBZQAcLMtr4AiCCGg9jSVFqn-jA"
                 }
             ],
             "params": [],
@@ -131,26 +131,22 @@
                 "form": [
                     {
                         "name": "text",
-                        "value": "Que locura3"
-                    },
-                    {
-                        "name": "publication",
-                        "value": "65e14ab2e6a8f5a79fc0c7fd"
+                        "value": "Que gran juego"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "0f0a1649-8e4a-4978-8b84-c94fce37b9ad",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "_id": "eb55b525-219d-4e9c-be70-62c1c916ce79",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "0597136a-51ce-491c-945c-532b5d53529a",
             "name": "Login",
             "url": "localhost:2656/user/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-01T02:51:47.052Z",
-            "modified": "2024-03-01T03:25:01.924Z",
+            "created": "2024-03-01T14:06:27.879Z",
+            "modified": "2024-03-01T14:45:10.701Z",
             "headers": [],
             "params": [],
             "body": {
@@ -159,7 +155,7 @@
                 "form": [
                     {
                         "name": "user",
-                        "value": "egonzalez1"
+                        "value": "egonzalez2"
                     },
                     {
                         "name": "password",
@@ -170,15 +166,15 @@
             "tests": []
         },
         {
-            "_id": "e02d008b-1adc-451e-8ef5-fd39c3e4061e",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "_id": "577f5846-d031-4184-adb5-fec7cd8c9ec1",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "3bd344b2-27e1-4617-839c-955f8009bf2b",
             "name": "Edit",
             "url": "localhost:2656/publication/editPublication/65e147ee5c1e2d1437b0fbd7",
             "method": "PUT",
             "sortNum": 20000,
-            "created": "2024-03-01T03:18:01.803Z",
-            "modified": "2024-03-01T03:23:23.078Z",
+            "created": "2024-03-01T14:06:27.882Z",
+            "modified": "2024-03-01T17:08:11.491Z",
             "headers": [
                 {
                     "name": "authorization",
@@ -192,26 +188,26 @@
                 "form": [
                     {
                         "name": "title",
-                        "value": "JIjiji"
+                        "value": "Juego de baseball"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "0ed6f49b-437e-4dbb-8d35-969158181ca0",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "_id": "f5d1558d-0e36-4f53-a975-4ae512606f04",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "6b6824ba-07c8-4f84-8db1-3ce5f866e126",
             "name": "Edit",
-            "url": "localhost:2656/comment/editComment/65e15173b70527f2610244b1",
+            "url": "localhost:2656/comment/editComment/65e1f1459322e08e58fcb384",
             "method": "PUT",
             "sortNum": 20000,
-            "created": "2024-03-01T03:29:44.411Z",
-            "modified": "2024-03-01T03:56:07.871Z",
+            "created": "2024-03-01T14:06:27.886Z",
+            "modified": "2024-03-01T17:08:06.526Z",
             "headers": [
                 {
                     "name": "authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjUzNjAsImV4cCI6MTcwOTI3NjE2MH0.uOjI3oJ4oHjukpZ8HchlN4RSaxxHuIZQWw2j6jXajmU"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTE3ODUzZjcxN2E5MWQ3NjQzMTEiLCJ1c2VybmFtZSI6ImVnb256YWxlejIiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkzMTAzMzQsImV4cCI6MTcwOTMyMTEzNH0.4Z8tfeyMSFV_objjcqoobtvOWtIDqwl9UI8Kn3V3HYU"
                 }
             ],
             "params": [],
@@ -221,22 +217,22 @@
                 "form": [
                     {
                         "name": "text",
-                        "value": "Mentira"
+                        "value": "El mejor juego que he podido ver"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "4e57729d-1c29-492d-bb01-14a65a1c54d2",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "04de0594-3aa5-4847-9edc-80773f788d9c",
+            "_id": "29c8f1d8-7de2-45ec-a814-0392bb22df08",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "0597136a-51ce-491c-945c-532b5d53529a",
             "name": "Update",
             "url": "localhost:2656/user/updateUser/65dd2d4fad50b5b81cb1805c",
             "method": "PUT",
             "sortNum": 30000,
-            "created": "2024-03-01T02:51:47.052Z",
-            "modified": "2024-03-01T02:51:47.052Z",
+            "created": "2024-03-01T14:06:27.880Z",
+            "modified": "2024-03-01T17:08:17.710Z",
             "headers": [
                 {
                     "name": "authorization",
@@ -250,22 +246,22 @@
                 "form": [
                     {
                         "name": "username",
-                        "value": "nenehorni"
+                        "value": "egonzalez-2019065"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "4df7db5b-1394-48b4-a632-2d3a4e2f67a1",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "_id": "c35813be-06d0-4652-904b-05a0d627bbe8",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "3bd344b2-27e1-4617-839c-955f8009bf2b",
             "name": "Delete",
             "url": "localhost:2656/publication/deletePublication/65e147ee5c1e2d1437b0fbd7",
             "method": "DELETE",
             "sortNum": 30000,
-            "created": "2024-03-01T03:24:04.529Z",
-            "modified": "2024-03-01T03:25:09.790Z",
+            "created": "2024-03-01T14:06:27.883Z",
+            "modified": "2024-03-01T14:06:27.883Z",
             "headers": [
                 {
                     "name": "authorization",
@@ -276,36 +272,69 @@
             "tests": []
         },
         {
-            "_id": "ef336021-bff7-46f4-b410-2a6c00754e0b",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "b939ef43-83f6-4299-ac4c-db54521abc4e",
+            "_id": "fda47763-891a-433f-9869-dc8806b8f5c7",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "6b6824ba-07c8-4f84-8db1-3ce5f866e126",
             "name": "Delete",
-            "url": "localhost:2656/comment/deleteComment/65e15173b70527f2610244b1",
+            "url": "localhost:2656/comment/deleteComment/65e1f1459322e08e58fcb384",
             "method": "DELETE",
             "sortNum": 30000,
-            "created": "2024-03-01T03:29:44.412Z",
-            "modified": "2024-03-01T03:56:48.177Z",
+            "created": "2024-03-01T14:06:27.887Z",
+            "modified": "2024-03-01T16:35:18.240Z",
             "headers": [
                 {
                     "name": "authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDc0MDE5OGM0MjVmZWNhMzJlNTkiLCJ1c2VybmFtZSI6ImVnb256YWxlejEiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkyNjM1MDEsImV4cCI6MTcwOTI3NDMwMX0.wmC_ePJ0TUYvS0tN_0r2etphdVq0XxHQdBfN8aKyyok"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTE3ODUzZjcxN2E5MWQ3NjQzMTEiLCJ1c2VybmFtZSI6ImVnb256YWxlejIiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkzMTAzMzQsImV4cCI6MTcwOTMyMTEzNH0.4Z8tfeyMSFV_objjcqoobtvOWtIDqwl9UI8Kn3V3HYU"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "bd51995f-8315-4d51-af08-fec5bb4494c6",
-            "colId": "df0e29dd-616a-4569-bee6-d942ea2600e0",
-            "containerId": "efc8b613-0942-4695-8bbb-ee409fe09881",
+            "_id": "38d85a0f-5b73-4723-b6f8-320fa55ac495",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "3bd344b2-27e1-4617-839c-955f8009bf2b",
             "name": "getAllPublications",
             "url": "localhost:2656/publication/getAllPublications",
             "method": "GET",
             "sortNum": 40000,
-            "created": "2024-03-01T03:26:14.275Z",
-            "modified": "2024-03-01T03:50:23.845Z",
+            "created": "2024-03-01T14:06:27.884Z",
+            "modified": "2024-03-01T14:06:27.884Z",
             "headers": [],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "88237626-7828-4eec-b6c7-8eec440a6ab7",
+            "colId": "e4a29a0d-5bcc-4c21-8b83-81367881e605",
+            "containerId": "0597136a-51ce-491c-945c-532b5d53529a",
+            "name": "Update Password",
+            "url": "localhost:2656/user/updatePassword/65e1e17853f717a91d764311",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-01T14:06:35.482Z",
+            "modified": "2024-03-01T17:08:39.099Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZTE3ODUzZjcxN2E5MWQ3NjQzMTEiLCJ1c2VybmFtZSI6ImVnb256YWxlejIiLCJuYW1lIjoiRWR3aW4iLCJpYXQiOjE3MDkzMDIxNDQsImV4cCI6MTcwOTMxMjk0NH0.xRZNhwbYHGsYBz9GctAyQvzwuXa7J6WI8X5Bzpywjnk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "currentPassword",
+                        "value": "ee2019"
+                    },
+                    {
+                        "name": "newPassword",
+                        "value": "ee2019-1"
+                    }
+                ]
+            },
             "tests": []
         }
     ]
